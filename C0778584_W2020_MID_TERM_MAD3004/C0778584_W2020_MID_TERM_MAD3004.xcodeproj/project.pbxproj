@@ -11,6 +11,7 @@
 		9B42AD6D23F60B2800157EB1 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42AD6C23F60B2800157EB1 /* Bill.swift */; };
 		9B42AD6F23F60C9500157EB1 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42AD6E23F60C9500157EB1 /* Internet.swift */; };
 		9B42AD7123F60DA400157EB1 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42AD7023F60DA400157EB1 /* Mobile.swift */; };
+		9B42AD7323F60EBE00157EB1 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42AD7223F60EBE00157EB1 /* Hydro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		9B42AD6C23F60B2800157EB1 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
 		9B42AD6E23F60C9500157EB1 /* Internet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Internet.swift; sourceTree = "<group>"; };
 		9B42AD7023F60DA400157EB1 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
+		9B42AD7223F60EBE00157EB1 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				9B42AD6C23F60B2800157EB1 /* Bill.swift */,
 				9B42AD6E23F60C9500157EB1 /* Internet.swift */,
 				9B42AD7023F60DA400157EB1 /* Mobile.swift */,
+				9B42AD7223F60EBE00157EB1 /* Hydro.swift */,
 			);
 			path = C0778584_W2020_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -129,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B42AD7323F60EBE00157EB1 /* Hydro.swift in Sources */,
 				9B42AD6F23F60C9500157EB1 /* Internet.swift in Sources */,
 				9B42AD6D23F60B2800157EB1 /* Bill.swift in Sources */,
 				9B42AD6623F60AE000157EB1 /* main.swift in Sources */,
