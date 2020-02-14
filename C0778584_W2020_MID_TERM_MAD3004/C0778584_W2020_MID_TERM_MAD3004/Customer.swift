@@ -20,13 +20,21 @@ class Customer
     var emailId: String
     private lazy var billDictionary =  [String: Double]()
     
-    init(customerId: Int, firstName: String, lastName: String, fullName: String, emailId: String, billDictionary: [String: Double])
+    init(customerId: Int, firstName: String, lastName: String, emailId: String/*, billDictionary: [String: Double]*/)
     {
         self.customerId = customerId
         self.firstName = firstName
         self.lastName = lastName
         self.emailId = emailId
-        self.billDictionary = billDictionary
+        //self.billDictionary = billDictionary
+    }
+    
+    func display()
+    {
+        print("Customer Id          : \(self.customerId)")
+        print("Customer Full Name   : \(self.fullName)")
+        print("Customer Email ID    : \(self.emailId)\n")
+        
     }
     
     

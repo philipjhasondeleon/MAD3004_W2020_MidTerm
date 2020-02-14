@@ -22,9 +22,9 @@ class Internet: Bill
     override func display()
     {
         super.display()
-        print("----Bill Information----")
-        print("*************************")
-        print("Provider Name        : \(self.billId)")
-        print("Internet Usage       : \(self.billId)")
+        print("     ----Bill Information----")
+        print("*************************************")
+        print("Provider Name        : \(self.providerName)")
+        print("Internet Usage       : \(self.internetGbUsed)")
     }
 }

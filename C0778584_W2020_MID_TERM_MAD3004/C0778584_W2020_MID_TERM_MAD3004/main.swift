@@ -8,8 +8,13 @@
 
 import Foundation
 
-var s1 = Internet(billId: 123, billDate: Date(), billType: "asd", totalBillAmount: 123, providerName: "ASD", internetGbUsed: 123)
+var c1 = Customer(customerId: 001, firstName: "Philip", lastName: "De Leon", emailId: "asd@gmail.com" )
+c1.display()
+
+var s1 = Internet(billId: 1, billDate: Date(), billType: "Internet", totalBillAmount: 500, providerName: "Fido", internetGbUsed: 10)
 s1.display()
+
+
 
 
 

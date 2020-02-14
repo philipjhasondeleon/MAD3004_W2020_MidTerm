@@ -28,6 +28,7 @@ class Mobile: Bill
     override func display()
        {
            super.display()
+           print("*************************************")
            print("Manufacturer Name    : \(self.mobileManufacturerName)")
            print("Plan Name            : \(self.planName)")
            print("Mobile Number        : \(self.mobileNumber)")

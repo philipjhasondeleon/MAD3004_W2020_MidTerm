@@ -15,6 +15,7 @@ class Bill
     var billType: String
     var totalBillAmount: Double
     
+    
     init(billId: Int, billDate: Date, billType: String, totalBillAmount: Double) {
         self.billId = billId
         self.billDate = billDate
@@ -25,8 +26,9 @@ class Bill
     
     func display()
     {
+        
         print("Bill ID              : \(self.billId)")
-        print("Bill Date            : \(self.billId)")
+        print("Bill Date            : \(self.billDate)")
         print("billType             : \(self.billType)")
         print("Total Bill Amount    : \(self.totalBillAmount)")
     }
