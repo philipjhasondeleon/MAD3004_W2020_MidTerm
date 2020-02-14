@@ -14,17 +14,20 @@ class Customer
     var firstName: String
     var lastName: String
     var fullName: String
+    {
+        return "\(firstName) \(lastName)"
+    }
     var emailId: String
-    var billDictionary: String
+    private lazy var billDictionary =  [String: Double]()
     
-    init(customerId: Int, firstName: String, lastName: String, fullName: String, emailId: String, billDictionary: String)
+    init(customerId: Int, firstName: String, lastName: String, fullName: String, emailId: String, billDictionary: [String: Double])
     {
         self.customerId = customerId
         self.firstName = firstName
         self.lastName = lastName
-        self.fullName = fullName
         self.emailId = emailId
         self.billDictionary = billDictionary
     }
+    
     
 }

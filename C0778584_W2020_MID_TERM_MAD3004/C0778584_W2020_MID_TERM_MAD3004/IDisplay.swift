@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol DisplayDelegate
+protocol IDisplay
 {
     func Display()
 }

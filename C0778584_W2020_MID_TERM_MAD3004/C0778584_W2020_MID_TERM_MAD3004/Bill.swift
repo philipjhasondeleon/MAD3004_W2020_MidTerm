@@ -20,5 +20,16 @@ class Bill
         self.billDate = billDate
         self.billType = billType
         self.totalBillAmount = totalBillAmount
+        
     }
+    
+    func display()
+    {
+        print("Bill ID              : \(self.billId)")
+        print("Bill Date            : \(self.billId)")
+        print("billType             : \(self.billType)")
+        print("Total Bill Amount    : \(self.totalBillAmount)")
+    }
+    
+    
 }
