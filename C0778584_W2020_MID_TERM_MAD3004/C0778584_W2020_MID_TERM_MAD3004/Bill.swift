@@ -26,11 +26,8 @@ class Bill
     
     func display()
     {
+        print("**************************************************")
         
-        print("Bill ID              : \(self.billId)")
-        print("Bill Date            : \(self.billDate)")
-        print("billType             : \(self.billType)")
-        print("Total Bill Amount    : \(self.totalBillAmount)")
     }
     
     

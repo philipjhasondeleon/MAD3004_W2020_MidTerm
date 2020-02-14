@@ -18,22 +18,30 @@ class Customer
         return "\(firstName) \(lastName)"
     }
     var emailId: String
-    private lazy var billDictionary =  [String: Double]()
+    private lazy var customerBills =  [String: Double]()
     
-    init(customerId: Int, firstName: String, lastName: String, emailId: String/*, billDictionary: [String: Double]*/)
+    init(customerId: Int, firstName: String, lastName: String, emailId: String /*customerBills: [String: Double]*/)
     {
         self.customerId = customerId
         self.firstName = firstName
         self.lastName = lastName
         self.emailId = emailId
-        //self.billDictionary = billDictionary
+        //self.customerBills = customerBills
     }
+    
+       func setcustomerBills(billId: String, bill: Double)//from lesson day4 InheritanceAndProtocol
+       {
+           self.customerBills.updateValue(bill, forKey: billId)
+       }
+    
     
     func display()
     {
-        print("Customer Id          : \(self.customerId)")
+        print("\n Customer Id          : \(self.customerId)")
         print("Customer Full Name   : \(self.fullName)")
-        print("Customer Email ID    : \(self.emailId)\n")
+        print("Customer Email ID    : \(self.emailId)")
+        //print("Customer Bills       : \(self.customerBills)\n")
+        
         
     }
     
