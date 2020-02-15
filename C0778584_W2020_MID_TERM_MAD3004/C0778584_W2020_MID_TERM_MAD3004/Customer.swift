@@ -10,7 +10,7 @@ import Foundation
 
 class Customer
 {
-    var customerId: Int
+    var customerId: String
     var firstName: String
     var lastName: String
     var fullName: String
@@ -20,16 +20,19 @@ class Customer
     var emailId: String
     private lazy var customerBills =  [String: Double]()
     
-    init(customerId: Int, firstName: String, lastName: String, emailId: String /*customerBills: [String: Double]*/)
+    
+    
+    init(customerId: String, firstName: String, lastName: String, emailId: String /*customerBills: [String: Double]*/)
     {
         self.customerId = customerId
         self.firstName = firstName
         self.lastName = lastName
         self.emailId = emailId
+        
         //self.customerBills = customerBills
     }
     
-       func setcustomerBills(billId: String, bill: Double)//from lesson day4 InheritanceAndProtocol
+       func setcustomerBills(billId: String, bill: Double) //from lesson day4 InheritanceAndProtocol
        {
            self.customerBills.updateValue(bill, forKey: billId)
        }
