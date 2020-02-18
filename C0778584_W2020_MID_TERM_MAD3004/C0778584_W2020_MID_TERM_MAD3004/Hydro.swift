@@ -26,7 +26,7 @@ class Hydro: Bill
         print("Bill ID              : \(self.billId)")
         print("Bill Date            : \(self.billDate)")
         print("billType             : \(self.billType)")
-        print("Bill Amount          : \(self.totalBillAmount)")
+        print("Bill Amount          : \(self.totalBillAmount.priceFormatted)")
         print("Agency Name          : \(self.agencyName)")
         print("Unit Consumed        : \(self.unitConsumed) Units")
         
