@@ -34,7 +34,7 @@ class Internet: Bill
        //     print("~~~NOTE : This Customer has no bills")
        // }
         
-        print("Internet Usage       : \(self.internetGbUsed) GB")
+        print("Internet Usage       : \(self.internetGbUsed)")
        
     }
 }
