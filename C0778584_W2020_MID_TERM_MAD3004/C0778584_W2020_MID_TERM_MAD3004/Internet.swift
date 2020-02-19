@@ -22,11 +22,6 @@ class Internet: Bill
     override func display()
     {
         super.display()
-        print("Bill ID              : \(self.billId)")
-        print("Bill Date            : \(self.billDate)")
-        print("Bill Type            : \(self.billType)")
-        print("Bill Amount          : \(self.totalBillAmount.priceFormatted)")
-        
         //if let d = self.providerName
         //{
         print("Provider Name        : \(self.providerName)")

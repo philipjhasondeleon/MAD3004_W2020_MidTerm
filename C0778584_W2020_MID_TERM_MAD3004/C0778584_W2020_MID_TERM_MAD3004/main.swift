@@ -12,7 +12,6 @@ var c1 = Customer(customerId: "1", firstName: "Philip", lastName: "De Leon", ema
 var i1 = Internet(billId: 1, billDate: Date(), billType: "Internet", totalBillAmount: 500, providerName: "Fido", internetGbUsed: 10)
 var m1 = Mobile(billId: 1, billDate: Date(), billType: "Mobile", totalBillAmount: 33.4, mobileManufacturerName: "Apple Inc. iPhone X MAX+", planName: "Prepaid Talk + Text plan", mobileNumber: +19012345678, internetGbUsed: 10, minuteUsed: 86)
 c1.display()
-print("     ----Bill Information----")
 i1.display()
 m1.display()
 
@@ -23,7 +22,6 @@ var i2 = Internet(billId: 2, billDate: Date(), billType: " Internet", totalBillA
 var m2 = Mobile(billId: 2, billDate: Date(), billType: "Mobile", totalBillAmount: 250.69, mobileManufacturerName: "Galaxy Samsung Inc.", planName: "Prepaid Talk + Text plan", mobileNumber: +11234567890, internetGbUsed: 5, minuteUsed: 356)
 print("\n")
 c2.display()
-print("     ----Bill Information----")
 h2.display()
 i2.display()
 m2.display()
@@ -33,7 +31,6 @@ var c3 = Customer(customerId: "3", firstName:  "Anetta" , lastName: "Langrick", 
 var h3 = Hydro(billId: 3, billDate: Date(), billType: "Hydro", totalBillAmount: 254.23, agencyName: "Planet Energy", unitConsumed: 53)
 print("\n")
 c3.display()
-print("     ----Bill Information----")
 h3.display()
 
 
