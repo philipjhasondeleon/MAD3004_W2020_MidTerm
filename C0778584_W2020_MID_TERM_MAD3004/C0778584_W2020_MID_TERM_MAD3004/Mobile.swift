@@ -10,11 +10,11 @@ import Foundation
 
 class Mobile: Bill
 {
-    var mobileManufacturerName: String
-    var planName: String
-    var mobileNumber: Int
-    var internetGbUsed: Int
-    var minuteUsed: Int
+    private var mobileManufacturerName: String
+    private var planName: String
+    private var mobileNumber: Int
+    private var internetGbUsed: Int
+    private var minuteUsed: Int
     
     init(billId: Int, billDate: Date, billType: String, totalBillAmount: Double, mobileManufacturerName: String, planName: String, mobileNumber: Int, internetGbUsed: Int, minuteUsed: Int) {
         self.mobileManufacturerName = mobileManufacturerName

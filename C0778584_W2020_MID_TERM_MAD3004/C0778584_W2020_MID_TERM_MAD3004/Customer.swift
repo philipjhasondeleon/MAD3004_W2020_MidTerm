@@ -40,13 +40,8 @@ class Customer
     
     func display()
     {
-        print("\n Customer Id          : \(self.customerId)")
+        print("Customer Id          : \(self.customerId)")
         print("Customer Full Name   : \(self.fullName)")
-        print("Customer Email ID    : \(self.emailId)")
-        //print("Customer Bills       : \(self.customerBills)\n")
-        
-        
+        print("Customer Email ID    : \(self.emailId.validateEmail())")
     }
-    
-    
 }

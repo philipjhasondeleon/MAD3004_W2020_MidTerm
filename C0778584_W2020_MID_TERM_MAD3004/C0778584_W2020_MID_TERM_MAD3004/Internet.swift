@@ -25,8 +25,15 @@ class Internet: Bill
         print("Bill ID              : \(self.billId)")
         print("Bill Date            : \(self.billDate)")
         print("Bill Type            : \(self.billType)")
-        print("Bill Amount          : \(self.totalBillAmount.priceFormatted)") 
+        print("Bill Amount          : \(self.totalBillAmount.priceFormatted)")
+        
+        //if let d = self.providerName
+        //{
         print("Provider Name        : \(self.providerName)")
+        //}else{
+       //     print("~~~NOTE : This Customer has no bills")
+       // }
+        
         print("Internet Usage       : \(self.internetGbUsed) GB")
        
     }
