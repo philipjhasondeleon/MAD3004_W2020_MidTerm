@@ -10,7 +10,7 @@ import Foundation
 
 class Customer
 {
-    var customerId: String
+    var customerId: Int
     var firstName: String
     var lastName: String
     var fullName: String
@@ -22,7 +22,7 @@ class Customer
     
     
     
-    init(customerId: String, firstName: String, lastName: String, emailId: String /*customerBills: [String: Double]*/)
+    init(customerId: Int, firstName: String, lastName: String, emailId: String /*customerBills: [String: Double]*/)
     {
         self.customerId = customerId
         self.firstName = firstName

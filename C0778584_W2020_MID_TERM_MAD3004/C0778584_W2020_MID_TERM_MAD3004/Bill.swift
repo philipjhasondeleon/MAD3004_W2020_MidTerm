@@ -31,7 +31,7 @@ class Bill
         print("Bill ID              : \(self.billId)")
         print("Bill Date            : \(self.billDate)")
         print("Bill Type            : \(self.billType)")
-        print("Bill Amount          : \(self.totalBillAmount.priceFormatted)")
+        print("Bill Amount          : \(self.totalBillAmount.currency())")
         
     }
     

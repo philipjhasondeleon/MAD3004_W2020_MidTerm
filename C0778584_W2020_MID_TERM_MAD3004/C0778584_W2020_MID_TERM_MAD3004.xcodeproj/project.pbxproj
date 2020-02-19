@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9B0F57E423FCB40C0063A556 /* ExtensionEmailVerification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F57E323FCB40C0063A556 /* ExtensionEmailVerification.swift */; };
+		9B0F57E623FCC4EC0063A556 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0F57E523FCC4EC0063A556 /* Extension.swift */; };
 		9B42AD6623F60AE000157EB1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42AD6523F60AE000157EB1 /* main.swift */; };
 		9B42AD6D23F60B2800157EB1 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42AD6C23F60B2800157EB1 /* Bill.swift */; };
 		9B42AD6F23F60C9500157EB1 /* Internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42AD6E23F60C9500157EB1 /* Internet.swift */; };
@@ -15,7 +16,6 @@
 		9B42AD7323F60EBE00157EB1 /* Hydro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42AD7223F60EBE00157EB1 /* Hydro.swift */; };
 		9B42AD7523F60F8800157EB1 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42AD7423F60F8800157EB1 /* Customer.swift */; };
 		9B42AD7723F6102400157EB1 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42AD7623F6102400157EB1 /* IDisplay.swift */; };
-		9B42AD7923F6199200157EB1 /* ExtensionCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42AD7823F6199200157EB1 /* ExtensionCurrency.swift */; };
 		9B42AD7B23F61DF400157EB1 /* Insurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B42AD7A23F61DF400157EB1 /* Insurance.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		9B0F57E323FCB40C0063A556 /* ExtensionEmailVerification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionEmailVerification.swift; sourceTree = "<group>"; };
+		9B0F57E523FCC4EC0063A556 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		9B42AD6223F60AE000157EB1 /* C0778584_W2020_MID_TERM_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C0778584_W2020_MID_TERM_MAD3004; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B42AD6523F60AE000157EB1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9B42AD6C23F60B2800157EB1 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
@@ -41,7 +42,6 @@
 		9B42AD7223F60EBE00157EB1 /* Hydro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydro.swift; sourceTree = "<group>"; };
 		9B42AD7423F60F8800157EB1 /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 		9B42AD7623F6102400157EB1 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
-		9B42AD7823F6199200157EB1 /* ExtensionCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionCurrency.swift; sourceTree = "<group>"; };
 		9B42AD7A23F61DF400157EB1 /* Insurance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insurance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,7 +82,7 @@
 				9B42AD7023F60DA400157EB1 /* Mobile.swift */,
 				9B42AD7223F60EBE00157EB1 /* Hydro.swift */,
 				9B42AD7623F6102400157EB1 /* IDisplay.swift */,
-				9B42AD7823F6199200157EB1 /* ExtensionCurrency.swift */,
+				9B0F57E523FCC4EC0063A556 /* Extension.swift */,
 				9B0F57E323FCB40C0063A556 /* ExtensionEmailVerification.swift */,
 				9B42AD7A23F61DF400157EB1 /* Insurance.swift */,
 			);
@@ -149,8 +149,8 @@
 			files = (
 				9B42AD7323F60EBE00157EB1 /* Hydro.swift in Sources */,
 				9B42AD6F23F60C9500157EB1 /* Internet.swift in Sources */,
-				9B42AD7923F6199200157EB1 /* ExtensionCurrency.swift in Sources */,
 				9B42AD6D23F60B2800157EB1 /* Bill.swift in Sources */,
+				9B0F57E623FCC4EC0063A556 /* Extension.swift in Sources */,
 				9B42AD7523F60F8800157EB1 /* Customer.swift in Sources */,
 				9B42AD7B23F61DF400157EB1 /* Insurance.swift in Sources */,
 				9B42AD6623F60AE000157EB1 /* main.swift in Sources */,
